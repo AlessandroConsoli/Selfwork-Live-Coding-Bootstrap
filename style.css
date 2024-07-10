@@ -2,18 +2,20 @@
     font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, .h1, .h2, .h3{
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6{
     font-family: "Roboto Slab", serif;
 }
 
 /* Variabili */
 :root{
     --mainColor: rgb(8, 69, 89);
-    --secondColor: rgb(33, 190, 243);
-    --thirdColor: rgb(255, 166, 0);
+    --secondColor: #FFED00;
+    --thirdColor: rgb(241, 241, 241);
 }
 
+
 /* classi precompilate con variabili*/
+
 
 .bg-mainColor{
     background-color: var(--mainColor);
@@ -27,3 +29,83 @@ h1, h2, h3, .h1, .h2, .h3{
     background-color: var(--thirdColor);
 }
 
+
+/* Customizzazioni Header */
+
+
+.custom-logo{
+    height: 50px;
+    top: 140px;
+}
+
+.custom-cabinato{
+    height: 500px;
+    top: 120px;
+}
+
+.custom-h6{
+    position: absolute;
+    top: 245px;
+    width: 500px;
+    color: var(--thirdColor);
+}
+
+.custom-h1{
+    position: absolute;
+    top: 275px;
+    width: 500px;
+    color: var(--thirdColor);
+}
+
+.custom-p{
+    position: absolute;
+    top: 375px;
+    width: 500px;
+    color: var(--thirdColor);
+}
+
+.fa-calendar-week{
+    color: var(--secondColor);
+    font-size: 35px;
+    position: absolute;
+    top: 445px;
+}
+
+.custom-fs{
+    font-size: 25px;
+    width: 300px;
+    position: absolute;
+    top: 2px;
+    left: 40px;
+    color: var(--thirdColor);
+}
+
+.custom-p-2{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 500px;
+    color: var(--thirdColor);
+    font-size: 12px;
+}
+
+.custom-btn{
+    padding: 8px 20px 8px 20px;
+    position: absolute;
+    top: 530px;
+    color: var(--secondColor);
+    border-color: var(--secondColor);
+}
+
+.custom-btn:hover{
+    color: var(--thirdColor);
+    border-color: var(--thirdColor);
+    background-color: var(--mainColor);
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    
+}
