@@ -1,0 +1,29 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: "Roboto Slab", serif;
+}
+
+/* Variabili */
+:root{
+    --mainColor: rgb(8, 69, 89);
+    --secondColor: rgb(33, 190, 243);
+    --thirdColor: rgb(255, 166, 0);
+}
+
+/* classi precompilate con variabili*/
+
+.bg-mainColor{
+    background-color: var(--mainColor);
+}
+
+.bg-secondColor{
+    background-color: var(--secondColor);
+}
+
+.bg-thirdColor{
+    background-color: var(--thirdColor);
+}
+
