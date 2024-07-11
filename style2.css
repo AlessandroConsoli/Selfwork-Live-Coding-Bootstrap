@@ -15,7 +15,7 @@ h1{
 
 /* Variabili */
 :root{
-    --mainColor: rgb(8, 69, 89);
+    --mainColor: #122044;
     --secondColor: #FFED00;
     --thirdColor: rgb(241, 241, 241);
 }
@@ -43,15 +43,14 @@ h1{
 
 .custom-bg-img{
     background-image: url(./media/bg-1.jpg);
-    height: 750px;
+    height: 100vh;
 }
 
-/* Colonna 1 */
+/* BOX 1 */
 
-.custom-col-1{
-    height: 500px;
-    margin-top: 110px;
-    background-color: ;
+.custom-box-1{
+    margin-top: 10px;
+    /* background-color: ; */
 }
 
 .custom-logo{
@@ -69,7 +68,6 @@ h1{
 }
 
 .custom-fa-icon{
-    margin-top: 40px;
     font-size: 40px;
     color: var(--secondColor);
 }
@@ -100,17 +98,73 @@ h1{
 }
 
 
-/* Colonna 2 */
+/* BOX 2 */
 
-.custom-col-2{
+.custom-box-2{
     height: 500px;
-    margin-top: 110px;
-    background-color: ;
 }
 
 .custom-cabinet{
     position: relative;
-    width: 450px;
-    /* left: -110px; */
+    width: auto;
+}
+
+
+/* SECTION 1 */
+
+/* BOX 3 */
+
+.custom-section-bg{
+    background-color: var(--mainColor);
+    height: 100vh;
+}
+
+.custom-section-cabinet{
+    height: 370px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+
+/* HEADER */
+
+    .custom-bg-img{
+        height: auto;
+    }
+
+    .custom-logo{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    .custom-fa-icon{
+        margin-left: 40px;
+    }
+
+    .custom-btn{
+        margin-left: 40px;
+    }
+
+    .custom-box-2{
+        height: 300px;
+    }
+
+    
+
+/* SECTION 1 */
+
+    .custom-section-bg{
+        height: auto;
+    }
+
 }
 
