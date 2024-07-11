@@ -1,0 +1,116 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    color: var(--thirdColor);
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px !important;
+}
+
+/* h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: "Roboto Slab", serif;
+} */
+
+/* Variabili */
+:root{
+    --mainColor: rgb(8, 69, 89);
+    --secondColor: #FFED00;
+    --thirdColor: rgb(241, 241, 241);
+}
+
+
+/* classi precompilate con variabili*/
+
+
+.bg-mainColor{
+    background-color: var(--mainColor);
+}
+
+.bg-secondColor{
+    background-color: var(--secondColor);
+}
+
+.bg-thirdColor{
+    background-color: var(--thirdColor);
+}
+
+
+
+
+/* customizzazioni header */
+
+.custom-bg-img{
+    background-image: url(./media/bg-1.jpg);
+    height: 750px;
+}
+
+/* Colonna 1 */
+
+.custom-col-1{
+    height: 500px;
+    margin-top: 110px;
+    background-color: ;
+}
+
+.custom-logo{
+    width: 20%;
+    margin-top: 30px;
+}
+
+.custom-h6{
+    margin-top: 35px;
+}
+
+.custom-h1{
+    margin-top: 20px;
+    font-size: 60px;    
+}
+
+.custom-fa-icon{
+    margin-top: 40px;
+    font-size: 40px;
+    color: var(--secondColor);
+}
+
+.custom-date{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.custom-p{
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.custom-btn{
+    border: solid;
+    color: var(--secondColor);
+    margin-top: 30px;
+}
+
+.custom-btn:hover{
+    color: var(--thirdColor);
+    border: solid;
+    background-color: var(--mainColor);
+}
+
+
+/* Colonna 2 */
+
+.custom-col-2{
+    height: 500px;
+    margin-top: 110px;
+    background-color: ;
+}
+
+.custom-cabinet{
+    position: relative;
+    width: 450px;
+    /* left: -110px; */
+}
+
