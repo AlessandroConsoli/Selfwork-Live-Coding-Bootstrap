@@ -353,7 +353,17 @@ footer{
 /* SECTION 4 */
 
     .section4-bg-img{
-        /* height: auto; */
+        height: auto;
+    }
+
+/* FOOTER */
+
+    footer{
+        
+    }
+
+    .footer-font-size{
+        font-size: xx-small;
     }
 
 }
