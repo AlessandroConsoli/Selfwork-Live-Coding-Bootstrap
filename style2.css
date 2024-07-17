@@ -37,6 +37,17 @@ h1{
 }
 
 
+.mainColor{
+    color: var(--mainColor);
+}
+
+.secondColor{
+    color: var(--secondColor);
+}
+
+.thirdColor{
+    color: var(--thirdColor);
+}
 
 
 /* HEADER */
@@ -214,6 +225,42 @@ h1{
     max-width: 65%;
 }
 
+/* SECTION 4 */
+
+.section4-bg-img{
+    background-image: url(./media/bg-3.jpg);
+    height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+/* BOX 8 */
+
+.box8-margin{
+    margin-top: 120px;
+}
+
+/* BOX 9 */
+
+.box9-margin{
+    margin-top: 50px;
+}
+
+.box9-img{
+    height: 400px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 25px;
+    background-color: var(--mainColor);
+}
+
+
+
 
 
 
@@ -303,7 +350,11 @@ h1{
         height: auto;
     }
     
+/* SECTION 4 */
 
+    .section4-bg-img{
+        /* height: auto; */
+    }
 
 }
 
