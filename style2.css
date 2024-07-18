@@ -356,6 +356,14 @@ footer{
         height: auto;
     }
 
+/* BOX 9 */
+
+    .box9-img{
+        max-width: 70%;
+        height: auto;
+        margin-left: 15%;
+    }
+
 /* FOOTER */
 
     footer{
@@ -364,6 +372,8 @@ footer{
 
     .footer-font-size{
         font-size: xx-small;
+        max-width: 90%;
+        height: auto;
     }
 
 }
